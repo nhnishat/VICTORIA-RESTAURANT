@@ -42,14 +42,14 @@ const ManageFood = () => {
 							<td>{recipe.name}</td>
 							<td>{recipe.description}</td>
 							<td>
-								<button className="btn btn-ghost btn-xs">
+								<button className="btn bg-green-500 btn-xs">
 									<Link to={`recipe-update/${recipe.id}`}>Edit</Link>
 								</button>
 							</td>
 							<td>
 								<button
 									onClick={() => handleDeleted(recipe.id)}
-									className="btn btn-ghost btn-xs"
+									className="btn bg-red-600 text-white btn-xs"
 								>
 									Delete
 								</button>
