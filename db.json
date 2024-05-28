@@ -1,0 +1,39 @@
+{
+  "recipe": [
+    {
+      "id": "1",
+      "name": "Margherita Pizza",
+      "price": 9.99,
+      "imgUrl": "https://i.ibb.co/BPgm1nL/trinh-minh-th-a6k-YPun9-ao-unsplash.jpg",
+      "description": "Classic pizza topped with tomato sauce, mozzarella cheese, and fresh basil leaves."
+    },
+    {
+      "id": "2",
+      "name": "Beef Burger",
+      "price": 13.5,
+      "imgUrl": "https://i.ibb.co/xfQGX5F/brooke-lark-oaz0rays-ASk-unsplash.jpg",
+      "description": "Juicy beef patty topped with lettuce, tomato, onions, and served on a toasted bun with fries."
+    },
+    {
+      "id": "3",
+      "name": "Chicken Shawarma",
+      "price": 7.99,
+      "imgUrl": "https://i.ibb.co/BCJW89w/svitlana-X6-F3-Qfa98-T4-unsplash.jpg",
+      "description": "Grilled chicken wrapped in pita bread with garlic sauce, tomatoes, and pickles."
+    },
+    {
+      "id": "4",
+      "name": "Veggie Wrap",
+      "price": 10.99,
+      "imgUrl": "https://i.ibb.co/807xWtb/dovile-ramoskaite-x-X9-Smq-QCb-FY-unsplash.jpg",
+      "description": "Assorted vegetables wrapped in a tortilla with hummus spread, perfect for a light lunch."
+    },
+    {
+      "id": "5",
+      "name": "BBQ Ribs",
+      "price": 18.99,
+      "imgUrl": "https://i.ibb.co/PgMQ1Hg/luisa-brimble-v-Im26fn-QKg-unsplash.jpg",
+      "description": "Tender pork ribs slow-cooked and glazed with barbecue sauce, served with coleslaw."
+    }
+  ]
+}
