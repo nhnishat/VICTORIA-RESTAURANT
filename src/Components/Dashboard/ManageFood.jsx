@@ -42,7 +42,7 @@ const ManageFood = () => {
 							<td>{recipe.name}</td>
 							<td>{recipe.description}</td>
 							<td>
-								<button className="btn bg-green-500 btn-xs">
+								<button className="btn bg-green-500 text-white btn-xs">
 									<Link to={`recipe-update/${recipe.id}`}>Edit</Link>
 								</button>
 							</td>
