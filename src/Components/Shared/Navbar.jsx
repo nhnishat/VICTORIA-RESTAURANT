@@ -5,13 +5,18 @@ import { Link } from 'react-router-dom';
 import useAuth from '../hooks/useAuth';
 
 const Navbar = () => {
-	const { user, LogOut } = useAuth();
+	const { user, LogOut, setUser } = useAuth();
+	console.log(user);
 	const [isOpen, setIsOpen] = useState(false);
 	const handleToggle = () => {
 		setIsOpen(!isOpen);
 	};
 	const handleLogout = () => {
-		LogOut();
+		console.log('click me');
+
+		LogOut().then((result) => {
+			setUser(null);
+		});
 	};
 	const navLink = (
 		<>
@@ -36,19 +41,20 @@ const Navbar = () => {
 				</Link>
 			</li>
 			{user ? (
-				<div className="flex items-center gap-4">
+				<li className="flex items-center gap-4">
 					<div className="avatar placeholder">
 						<div className="bg-neutral text-neutral-content rounded-full w-12">
 							<img src={user?.photoURL} alt="" />
 						</div>
 					</div>
 					<button
+						type="logout"
 						onClick={handleLogout}
 						className="text-white bg-blue-600 hover:bg-blue-700 py-2 px-4 rounded"
 					>
 						Logout
 					</button>
-				</div>
+				</li>
 			) : (
 				<li className="flex items-center">
 					<Link to="/login" className="hover:text-gray-700">

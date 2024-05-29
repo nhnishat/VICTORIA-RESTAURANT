@@ -68,7 +68,7 @@ export const router = createBrowserRouter([
 		),
 		children: [
 			{
-				path: 'user-info',
+				path: '',
 				element: (
 					<PrivateRoute>
 						<UserInfo />

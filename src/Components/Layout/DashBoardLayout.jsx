@@ -23,7 +23,7 @@ const DashBoardLayout = () => {
 				<ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
 					{/* Sidebar content here */}
 					<li>
-						<Link to="/dashboard/user-info">User Info</Link>
+						<Link to="">User Info</Link>
 					</li>
 					<li>
 						<Link to="/dashboard/manage-food">Manage Food</Link>

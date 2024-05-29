@@ -28,7 +28,7 @@ const AuthProvider = ({ children }) => {
 			if (currentUser) {
 				setUser(currentUser);
 				setLoading(false);
-				console.log(currentUser);
+				console.log({ currentUser });
 			}
 		});
 		return () => {
@@ -54,7 +54,6 @@ const AuthProvider = ({ children }) => {
 	};
 
 	const LogOut = () => {
-		setLoading(true);
 		return signOut(auth);
 	};
 	const authInfo = {
@@ -65,6 +64,7 @@ const AuthProvider = ({ children }) => {
 		updateUserProfile,
 		SingIn,
 		LogOut,
+		setUser,
 	};
 
 	return (
