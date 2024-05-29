@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const FoodCart = ({ recipe }) => {
 	const { id, name, price, imgUrl, description } = recipe;
@@ -18,7 +19,7 @@ const FoodCart = ({ recipe }) => {
 				<p className="text-gray-600 mb-4">{description}</p>
 				<div className="flex justify-end">
 					<button className="btn btn-primary px-4 py-2 rounded-lg text-white bg-blue-500 hover:bg-blue-600">
-						Show Details
+						<Link to={`food-details/${id}`}>Show Details</Link>
 					</button>
 				</div>
 			</div>

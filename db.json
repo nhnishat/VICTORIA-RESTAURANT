@@ -34,6 +34,13 @@
       "price": 18.99,
       "imgUrl": "https://i.ibb.co/PgMQ1Hg/luisa-brimble-v-Im26fn-QKg-unsplash.jpg",
       "description": "Tender pork ribs slow-cooked and glazed with barbecue sauce, served with coleslaw."
+    },
+    {
+      "name": "Veggie",
+      "price": 377,
+      "imgUrl": "https://i.ibb.co/wzW0GhH/Slide2.png",
+      "description": "this is most orders foods\n",
+      "id": "8"
     }
   ]
 }
